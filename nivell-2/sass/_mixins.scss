@@ -1,0 +1,19 @@
+@mixin important-text {
+    font-size: 3.5vw;
+    font-weight: 300;
+    color: $color6;
+    font-family: "Lato";
+}
+
+@mixin animation($backgroundColor, $animationName, $animationDuration, $myAnimationTimingFunction){
+    background-color: $backgroundColor;
+    animation-name: $animationName;
+    animation-duration: $animationDuration;
+    animation-timing-function: $myAnimationTimingFunction;
+}
+
+@mixin flexCenter($display, $alignItems, $justifyContent){
+    display: $display;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
